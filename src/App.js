@@ -2,6 +2,7 @@ import './App.css';
 import image from "./shopping.jpg";
 import imageman from "./man.jpg";
 import { GroceryList } from "./GroceryList";
+import { Heart } from './Heart';
 
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
      <h1> Grocery List</h1>
      </div>
      <GroceryList />
-<div className='container'>
+<div className='containerOne'>
      <img src={ imageman } width="200px" alt="picman"/>
+     <Heart />
      </div>
     </div>
   );

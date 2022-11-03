@@ -25,6 +25,11 @@ h1 {
   display:flex;
   justify-content: center;
 }
+.containerOne {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .btn-add {
 
@@ -56,4 +61,8 @@ input {
 }
 img {
   border-radius: 50%;
+  align-self: center;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
